@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_citzenships",
+  "info": {
+    "singularName": "section-citzenship",
+    "pluralName": "section-citzenships",
+    "displayName": "Seção Cidadanias"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Cidadanias",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

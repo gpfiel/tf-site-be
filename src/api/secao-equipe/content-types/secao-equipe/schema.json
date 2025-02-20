@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_equipes",
+  "info": {
+    "singularName": "secao-equipe",
+    "pluralName": "secao-equipes",
+    "displayName": "Seção Equipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "default": "Nossa Equipe",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

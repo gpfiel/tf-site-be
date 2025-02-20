@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "gerals",
+  "info": {
+    "singularName": "geral",
+    "pluralName": "gerals",
+    "displayName": "Geral",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "LogoLink": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "LogoImg": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "InstagramEmpresaUrl": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.instagram.com/tfadvocaciamigratoria/"
+    },
+    "InstagramTataineUrl": {
+      "type": "string",
+      "default": "https://www.instagram.com/tatianefiel/",
+      "required": true
+    }
+  }
+}

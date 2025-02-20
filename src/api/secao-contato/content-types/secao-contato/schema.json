@@ -1,0 +1,80 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_contatos",
+  "info": {
+    "singularName": "secao-contato",
+    "pluralName": "secao-contatos",
+    "displayName": "Seção Contato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "default": "Contato",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "endereco": {
+      "type": "string",
+      "default": "Rua da República, nº 202, Loja nº 54, 1º Andar - Foz Center - CP: 3080-143 - Figueira da Foz",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "enderecoTitulo": {
+      "type": "string",
+      "default": "Endereço",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "telefoneTitulo": {
+      "type": "string",
+      "default": "Telefone",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "telefoneNumero": {
+      "type": "string",
+      "required": true,
+      "default": "+351 969 674 764"
+    },
+    "ematilTitulo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "default": "E-mail"
+    },
+    "email": {
+      "type": "email",
+      "default": "contato@advtatianefiel.com",
+      "required": true
+    }
+  }
+}

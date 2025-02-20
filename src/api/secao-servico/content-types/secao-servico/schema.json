@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_servicos",
+  "info": {
+    "singularName": "secao-servico",
+    "pluralName": "secao-servicos",
+    "displayName": "Seção Serviços",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "default": "OUTROS SERVIÇOS"
+    },
+    "descricao": {
+      "type": "richtext",
+      "default": "Oferecemos outros serviços para faciltar seu processo de imigração",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

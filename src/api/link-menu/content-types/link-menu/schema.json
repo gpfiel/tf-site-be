@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_menus",
+  "info": {
+    "singularName": "link-menu",
+    "pluralName": "link-menus",
+    "displayName": "LinkMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "LinkNome": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "LinkUrl": {
+      "type": "string",
+      "required": true
+    },
+    "LinkExterno": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

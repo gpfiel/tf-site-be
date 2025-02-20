@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vistos",
+  "info": {
+    "singularName": "visto",
+    "pluralName": "vistos",
+    "displayName": "Visto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Icone": {
+      "type": "string",
+      "required": true
+    },
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Descricao": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

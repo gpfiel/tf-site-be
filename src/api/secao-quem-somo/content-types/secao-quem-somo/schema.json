@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "secao_quem_somos",
+  "info": {
+    "singularName": "secao-quem-somo",
+    "pluralName": "secao-quem-somos",
+    "displayName": "Seção Quem Somos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "default": "Sua Assessoria Jurídica em Migração e Cidadania",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "subtitulo": {
+      "type": "richtext",
+      "default": "No TF Advocacia Migratória, nosso foco é ajudar pessoas a viver de maneira legal em Portugal, Brasil, Italia e EUA. Já atendemos clientes em mais de 18 países, com especial atenção à América Latina, oferecendo assessoria jurídica personalizada, ágil e segura em todas as etapas do processo de migração.",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
